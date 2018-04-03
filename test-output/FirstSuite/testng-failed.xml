@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirstTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNGPack.FirstTestNG">
+        <methods>
+          <include name="deletcookie"/>
+          <include name="Test"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="bye"/>
+          <include name="launchurl"/>
+        </methods>
+      </class> <!-- TestNGPack.FirstTestNG -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [FirstSuite] -->
